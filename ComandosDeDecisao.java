@@ -21,7 +21,12 @@ public class ComandosDeDecisao {
       System.out.println("Aprovado");
     } else if (nota < media) {
       System.out.println("Recuperação");
-    } else {
+    }else if (faltas >= maxFaltas) {
+      System.out.println("Reprovado por faltas");
+    }
+    
+    
+    else {
       System.out.println("Reprovado");
     }
   }
