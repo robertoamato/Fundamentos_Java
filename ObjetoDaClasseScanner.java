@@ -27,5 +27,15 @@ public class ObjetoDaClasseScanner {
 
         // Fechar o Scanner
         sc.close();
-    }
+   
+  Scanner scanner = new Scanner(System.in);
+
+  String nome1 = "";
+  System.out.println("Digite o seu nome: ");  
+  nome1 = scanner.nextLine();
+  System.out.println("O seu nome é: " + nome1); 
+
+  scanner.close();
+}
+
 }
