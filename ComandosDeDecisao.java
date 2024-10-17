@@ -12,7 +12,7 @@ public class ComandosDeDecisao {
 
     // Variáveis para notas e faltas
     int nota = 85;
-    int faltas = 10;
+    int faltas = 4;
     int maxFaltas = 5;
     int media = 60;
 
@@ -29,5 +29,24 @@ public class ComandosDeDecisao {
     else {
       System.out.println("Reprovado");
     }
+
+      // Operacao ternaária
+    int res;
+    res = (nota >= media ? 1 : 0);
+    System.out.println(res == 1 ? "Aprovado" : "Reprovado");
+
+    // Metodo switch
+    switch (x) {
+      case 1:
+        System.out.println("x é igual a 1");
+        break;
+      case 2:
+        System.out.println("x é igual a 2");
+        break;
+      default:
+        System.out.println("x não é igual a 1 nem a 2");
+    }
+
   }
+
 }
