@@ -14,7 +14,7 @@ public class ExemplosNumerosInteiros {
         int idade = 53;
         //long -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
         long populacao = 2000000000;
-        
+
 
     }
 }
