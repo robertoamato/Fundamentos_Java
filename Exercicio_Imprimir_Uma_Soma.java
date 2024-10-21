@@ -8,4 +8,3 @@ public class Exercicio_Imprimir_Uma_Soma {
         System.out.println(" a soma dos valores é " + soma  );
     }
 }
-        
