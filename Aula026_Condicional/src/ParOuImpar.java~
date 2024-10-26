@@ -1,5 +1,4 @@
 import java.util.Locale;
-import java.util.Scanner;
 
 public class ParOuImpar {
 
@@ -17,12 +16,12 @@ public class ParOuImpar {
         valor = Integer.parseInt(sc.nextLine());
 
         //verifica se o número é par ou ímpar
-        if (valor % 2 == 0) {
+        if(valor % 2 == 0) {
             System.out.println(valor + " é par");
-        } else {
+        }
+        else {
             System.out.println(valor + " é ímpar");
 
 
-        }
     }
 }
