@@ -24,5 +24,8 @@ public class Main {
         } else {
             System.out.print("voce foi reprovado por faltas " + faltas);
         }
+
+
+
     }
 }
