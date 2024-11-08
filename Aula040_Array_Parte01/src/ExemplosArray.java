@@ -4,7 +4,7 @@ public class ExemplosArray {
     }
     // declarações de arrays
     int[] pontos;
-    pontos = new int[5];
+    int pontos = new int[5];
 
     // declaração em uma única linha
     int valores[] = new int[10];
@@ -37,7 +37,7 @@ public class ExemplosArray {
         System.out.println(despesas[i]);
     }
 
-    String[] nomes = new String[3];
+    //String[] nomes = new String[3];
     nomes[0] = "Maria";
     nomes[1] = "José";
     nomes[2] = "Anderson";
